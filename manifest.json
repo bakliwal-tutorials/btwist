@@ -3,7 +3,7 @@
   "name": "BTwist - Email Management System",
   "short_name": "BTwist",
   "description": "Bakliwal Tutorials Email Management System for sending test results",
-  "start_url": "/",
+  "start_url": "https://bakliwal-tutorials.github.io/btwist/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4285f4",

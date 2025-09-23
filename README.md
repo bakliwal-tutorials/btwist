@@ -39,7 +39,7 @@
 
 ## 🚀 Live Demo
 
-Experience BTwist in action: [**Live Demo**](https://replit.com/@your-username/btwist)
+Experience BTwist in action: [**Live Demo**](https://bakliwal-tutorials.github.io/btwist/)
 
 ## 🛠️ Technology Stack
 

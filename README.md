@@ -50,60 +50,6 @@ Experience BTwist in action: [**Live Demo**](https://bakliwal-tutorials.github.i
 - **Authentication**: Custom password-based system
 - **PWA**: Web App Manifest, Service Worker ready
 
-## 📦 Installation & Setup
-
-### 1️⃣ **Clone the Repository**
-```bash
-git clone https://github.com/your-username/btwist.git
-cd btwist
-```
-
-### 2️⃣ **Install Dependencies**
-```bash
-npm install
-```
-
-### 3️⃣ **Firebase Configuration**
-1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
-2. Enable Realtime Database
-3. Update Firebase config in `script.js`:
-```javascript
-const firebaseConfig = {
-  apiKey: "your-api-key",
-  authDomain: "your-project.firebaseapp.com",
-  databaseURL: "https://your-project-default-rtdb.region.firebasedatabase.app",
-  projectId: "your-project-id",
-  // ... other config
-};
-```
-
-### 4️⃣ **EmailJS Setup**
-1. Create account at [EmailJS](https://www.emailjs.com/)
-2. Create email service and template
-3. **Critical Template Setup**:
-   - Set "To Email" field to `{{to_email}}`
-   - Use `{{{message_html}}}` with **triple braces** for HTML content
-   - Set Content Type to **"HTML"** in EmailJS dashboard
-
-### 5️⃣ **Run the Application**
-
-#### For Development:
-```bash
-npm run dev
-# or
-npx http-server . -p 5000 -c-1 --cors
-```
-
-#### For Production (Replit):
-```bash
-npm run build
-npm run preview
-```
-
-## 🔑 Authentication
-
-BTwist uses a secure password system with 50 unique authentication codes. Each password can only be used once per device to ensure security.
-
 ### **Getting Access**:
 1. Contact the administrator via Telegram: [@itz_atharva07](https://t.me/itz_atharva07)
 2. Receive a valid password from the authorized list
@@ -151,46 +97,6 @@ BT Team.
 - **Smart Validation**: Automatic input validation and error handling
 - **Progressive Web App**: Install as native app on mobile devices
 
-## 🔧 Configuration Management
-
-### **EmailJS Template Requirements**:
-```html
-<!-- Template Body (use triple braces for HTML) -->
-{{{message_html}}}
-```
-
-### **Firebase Database Structure**:
-```json
-{
-  "auth": {
-    "valid-passwords": { "hash1": {...}, "hash2": {...} },
-    "used-passwords": { "hash1": {...} }
-  },
-  "emailjs-config": {
-    "serviceId": "your_service_id",
-    "templateId": "your_template_id", 
-    "publicKey": "your_public_key"
-  }
-}
-```
-
-## 🚀 Deployment
-
-### **Deploy on Replit** (Recommended):
-1. Import repository to Replit
-2. Configure Firebase credentials
-3. Set up EmailJS integration
-4. Deploy as static site
-
-### **Manual Deployment**:
-```bash
-# Build the project
-npm run build
-
-# Deploy the dist folder to your hosting service
-# (Netlify, Vercel, GitHub Pages, etc.)
-```
-
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:
@@ -210,14 +116,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Atharva** - [@itz_atharva07](https://t.me/itz_atharva07)
 
 - Telegram: [@itz_atharva07](https://t.me/itz_atharva07)
-- GitHub: [@your-github-username](https://github.com/your-github-username)
-
-## 🙏 Acknowledgments
-
-- **Bakliwal Tutorials** for the project requirements
-- **Firebase** for backend services
-- **EmailJS** for email delivery
-- **Google Material Design** for UI inspiration
+- GitHub: [@your-github-username](https://github.com/atharva-9423)
 
 ## 📞 Support
 

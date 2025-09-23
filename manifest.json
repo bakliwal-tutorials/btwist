@@ -1,0 +1,25 @@
+
+{
+  "name": "BTwist - Email Management System",
+  "short_name": "BTwist",
+  "description": "Bakliwal Tutorials Email Management System for sending test results",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4285f4",
+  "orientation": "portrait-primary",
+  "categories": ["education", "productivity"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "./attached_assets/Screenshot 2025-09-23 213415_1758644247005.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./attached_assets/Screenshot 2025-09-23 213415_1758644247005.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
